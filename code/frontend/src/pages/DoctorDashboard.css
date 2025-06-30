@@ -1,0 +1,46 @@
+/* src/pages/DoctorDashboard.css */
+
+.doctor-dashboard-container {
+  background-color: #abd4fc;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #01426d;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.dashboard-subtitle {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.no-doctors-text {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+}
+
+.doctor-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.doctor-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+}
